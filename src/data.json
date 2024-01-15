@@ -1,0 +1,270 @@
+{
+  "questions": [
+    {
+      "text": "How old your elder brother was 10 years before you was born, mate?",
+      "answers": [
+        {
+          "text": "10 years",
+          "isCorrect": false
+        },
+        {
+          "text": "11 years",
+          "isCorrect": false
+        },
+        {
+          "text": "12 years",
+          "isCorrect": false
+        },
+        {
+          "text": "14 years",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "2 questions",
+      "answers": [
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "true",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "3 questions",
+      "answers": [
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "true",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "4 questions",
+      "answers": [
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "true",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "5 questions",
+      "answers": [
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "true",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "6 questions",
+      "answers": [
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "true",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "7 questions",
+      "answers": [
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "true",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "8 questions",
+      "answers": [
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "true",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "9 questions",
+      "answers": [
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "true",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "10 questions",
+      "answers": [
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "true",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "11 questions",
+      "answers": [
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "true",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "12 questions",
+      "answers": [
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
+          "text": "true",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "scores": [
+    500,
+    1000,
+    2000,
+    4000,
+    8000,
+    16000,
+    32000,
+    64000,
+    125000,
+    250000,
+    500000,
+    1000000
+  ]
+}

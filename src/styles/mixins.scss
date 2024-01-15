@@ -1,0 +1,63 @@
+$mobile: 750px;
+$tablet: 1200px;
+$desktop: 1800px;
+
+@mixin respond-to($media) {
+  @if $media == m {
+    @media only screen and (max-width: $mobile) {
+      @content;
+    }
+  } @else if $media == mm {
+    @media only screen and (max-width: 359px) {
+      @content;
+    }
+  } @else if $media == ls-m {
+    @media only screen and (max-width: $mobile) and (orientation: landscape) {
+      @content;
+    }
+  } @else if $media == p-m {
+    @media only screen and (max-width: $mobile) and (orientation: portrait) {
+      @content;
+    }
+  } @else if $media == t {
+    @media only screen and (max-width: $tablet) {
+      @content;
+    }
+  } @else if $media == ls-t {
+    @media only screen and (max-width: $tablet) and (orientation: landscape) {
+      @content;
+    }
+  } @else if $media == p-t {
+    @media only screen and (max-width: $tablet) and (orientation: portrait) {
+      @content;
+    }
+  } @else if $media == only-t {
+    @media only screen and (max-width: $tablet) and (min-width: $mobile) {
+      @content;
+    }
+  } @else if $media == d {
+    @media only screen and (min-width: $tablet) {
+      @content;
+    }
+  } @else if $media == dt {
+    @media only screen and (min-width: $mobile) {
+      @content;
+    }
+  } @else if $media == db {
+    @media only screen and (min-width: $desktop) {
+      @content;
+    }
+  } @else if $media == dm {
+    @media only screen and (max-width: $desktop) {
+      @content;
+    }
+  } @else if $media == 1440 {
+    @media only screen and (max-width: 1380px) and (orientation: landscape) {
+      @content;
+    }
+  } @else if $media == hover {
+    @media only screen and (min-width: $tablet + 1) {
+      @content;
+    }
+  }
+}
