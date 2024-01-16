@@ -1,250 +1,290 @@
 {
   "questions": [
     {
-      "text": "How old your elder brother was 10 years before you was born, mate?",
+      "text": "1. Як називається столиця України?",
       "answers": [
         {
-          "text": "10 years",
+          "text": "Київ",
+          "isCorrect": true
+        },
+        {
+          "text": "Львів",
           "isCorrect": false
         },
         {
-          "text": "11 years",
+          "text": "Одеса",
           "isCorrect": false
         },
         {
-          "text": "12 years",
+          "text": "Харків",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "2. Скільки планет в Сонячній системі?",
+      "answers": [
+        {
+          "text": "7",
           "isCorrect": false
         },
         {
-          "text": "14 years",
+          "text": "8",
+          "isCorrect": true
+        },
+        {
+          "text": "9",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "3. Яке найбільше озеро в Україні?",
+      "answers": [
+        {
+          "text": "Світязь",
+          "isCorrect": false
+        },
+        {
+          "text": "Несамовите",
+          "isCorrect": false
+        },
+        {
+          "text": "Мезозойське",
+          "isCorrect": false
+        },
+        {
+          "text": "Лебедине",
+          "isCorrect": false
+        },
+        {
+          "text": "Ялпуг",
           "isCorrect": true
         }
       ]
     },
     {
-      "text": "2 questions",
+      "text": "4. Як називається найвища гора світу?",
       "answers": [
         {
-          "text": "false",
+          "text": "Ельбрус",
           "isCorrect": false
         },
         {
-          "text": "false",
+          "text": "МакКінлі",
           "isCorrect": false
         },
         {
-          "text": "false",
+          "text": "К2",
           "isCorrect": false
         },
         {
-          "text": "true",
+          "text": "Еверест",
           "isCorrect": true
+        },
+        {
+          "text": "Канченджанга",
+          "isCorrect": false
         }
       ]
     },
     {
-      "text": "3 questions",
+      "text": "5. Яка найбільша ріка в Україні?",
       "answers": [
         {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "true",
+          "text": "Дніпро",
           "isCorrect": true
+        },
+        {
+          "text": "Дунай",
+          "isCorrect": false
+        },
+        {
+          "text": "Прип'ять",
+          "isCorrect": false
+        },
+        {
+          "text": "Сіверський Донець",
+          "isCorrect": false
+        },
+        {
+          "text": "Тиса",
+          "isCorrect": false
         }
       ]
     },
     {
-      "text": "4 questions",
+      "text": "6. Скільки кісток у скелеті дорослої людини?",
       "answers": [
         {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "true",
+          "text": "206",
           "isCorrect": true
         },
         {
-          "text": "true",
-          "isCorrect": true
+          "text": "195",
+          "isCorrect": false
+        },
+        {
+          "text": "220",
+          "isCorrect": false
+        },
+        {
+          "text": "180",
+          "isCorrect": false
+        },
+        {
+          "text": "240",
+          "isCorrect": false
         }
       ]
     },
     {
-      "text": "5 questions",
+      "text": "7. Як називається столиця Франції?",
       "answers": [
         {
-          "text": "false",
+          "text": "Рим",
           "isCorrect": false
         },
         {
-          "text": "true",
+          "text": "Берлін",
+          "isCorrect": false
+        },
+        {
+          "text": "Лондон",
+          "isCorrect": false
+        },
+        {
+          "text": "Париж",
           "isCorrect": true
+        },
+        {
+          "text": "Мадрид",
+          "isCorrect": false
         }
       ]
     },
     {
-      "text": "6 questions",
+      "text": "8. Якій планеті належить прізвище 'Вечірня Зірка'?",
       "answers": [
         {
-          "text": "false",
+          "text": "Марс",
           "isCorrect": false
         },
         {
-          "text": "false",
+          "text": "Меркурій",
           "isCorrect": false
         },
         {
-          "text": "true",
+          "text": "Венера",
           "isCorrect": true
+        },
+        {
+          "text": "Юпітер",
+          "isCorrect": false
+        },
+        {
+          "text": "Сатурн",
+          "isCorrect": false
         }
       ]
     },
     {
-      "text": "7 questions",
+      "text": "9. Як називається найбільша пустеля світу?",
       "answers": [
         {
-          "text": "false",
+          "text": "Атакама",
           "isCorrect": false
         },
         {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "true",
+          "text": "Сахара",
           "isCorrect": true
+        },
+        {
+          "text": "Гобі",
+          "isCorrect": false
+        },
+        {
+          "text": "Калагарі",
+          "isCorrect": false
+        },
+        {
+          "text": "Такла-Макан",
+          "isCorrect": false
         }
       ]
     },
     {
-      "text": "8 questions",
+      "text": "10. Яка найменша країна світу за площею?",
       "answers": [
         {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "true",
+          "text": "Монако",
           "isCorrect": true
+        },
+        {
+          "text": "Ватикан",
+          "isCorrect": false
+        },
+        {
+          "text": "Науру",
+          "isCorrect": false
+        },
+        {
+          "text": "Мальдіви",
+          "isCorrect": false
+        },
+        {
+          "text": "Сан-Марино",
+          "isCorrect": false
         }
       ]
     },
     {
-      "text": "9 questions",
+      "text": "13. Яка найбільша планета в Сонячній системі?",
       "answers": [
         {
-          "text": "false",
+          "text": "Земля",
           "isCorrect": false
         },
         {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "true",
+          "text": "Юпітер",
           "isCorrect": true
+        },
+        {
+          "text": "Венера",
+          "isCorrect": false
+        },
+        {
+          "text": "Сатурн",
+          "isCorrect": false
+        },
+        {
+          "text": "Марс",
+          "isCorrect": false
         }
       ]
     },
     {
-      "text": "10 questions",
+      "text": "12. Скільки зірок на флагу Європейського Союзу?",
       "answers": [
         {
-          "text": "false",
+          "text": "9",
           "isCorrect": false
         },
         {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "true",
+          "text": "12",
           "isCorrect": true
-        }
-      ]
-    },
-    {
-      "text": "11 questions",
-      "answers": [
+        },
         {
-          "text": "false",
+          "text": "15",
           "isCorrect": false
         },
         {
-          "text": "false",
+          "text": "18",
           "isCorrect": false
         },
         {
-          "text": "false",
+          "text": "21",
           "isCorrect": false
-        },
-        {
-          "text": "true",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "text": "12 questions",
-      "answers": [
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "true",
-          "isCorrect": true
         }
       ]
     }
