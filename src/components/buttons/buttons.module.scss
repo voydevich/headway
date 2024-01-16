@@ -20,7 +20,7 @@
   }
 
   &:active {
-    background: var(--Orange-120, #E87928);
+    background: var(--Orange-120);
   }
 }
 
@@ -51,7 +51,7 @@
     &:before {
       content: counter(chapter, upper-alpha);
       counter-increment: chapter;
-      color: var(--Orange-100, #FF8B37);
+      color: var(--Orange-100);
       font-weight: 600;
     }
   }
@@ -69,7 +69,7 @@
     position: absolute;
     top: 50%;
     left: 0;
-    background: #D0D0D8;
+    background: var(--Black-40);
     z-index: -2;
   }
 
@@ -90,9 +90,137 @@
       fill: var(--White-100);
       stroke: var(--Orange-100);
     }
+
+    &:after {
+      background: var(--Black-40);
+    }
+  }
+
+  &.selected {
+    svg {
+      fill: var(--Orange-5);
+      stroke: var(--Orange-100);
+    }
+
+    &:after {
+      background: var(--Orange-100);
+    }
+  }
+
+  &.correct {
+
+    svg {
+      animation: blink-correct 5s linear;
+
+      fill: var(--Green-5);
+      stroke: var(--Green-100);
+    }
+
+    &:after {
+      background: var(--Green-100);
+    }
+
+    @keyframes blink-correct {
+      0% {
+        fill: var(--Green-5);
+        stroke: var(--Green-100);
+      }
+      10% {
+        fill: var(--Green-5);
+        stroke: var(--Green-100);
+      }
+      11% {
+        fill: var(--White-100);
+        stroke: var(--Black-40);
+      }
+      20% {
+        fill: var(--White-100);
+        stroke: var(--Black-40);
+      }
+      21% {
+        fill: var(--Green-5);
+        stroke: var(--Green-100);
+      }
+      30% {
+        fill: var(--Green-5);
+        stroke: var(--Green-100);
+      }
+      31% {
+        fill: var(--White-100);
+        stroke: var(--Black-40);
+      }
+      40% {
+        fill: var(--White-100);
+        stroke: var(--Black-40);
+      }
+      41% {
+        fill: var(--Green-5);
+        stroke: var(--Green-100);
+      }
+      100% {
+        fill: var(--Green-5);
+        stroke: var(--Green-100);
+      }
+    }
+  }
+
+  &.wrong {
+    transition: all 5s cubic-bezier(0, 2, 2, 0);
+
+    svg {
+      animation: blink-wrong 3s linear;
+      fill: var(--Red-5);
+      stroke: var(--Red-100);
+    }
+
+    &:after {
+      background: var(--Red-100);
+    }
+
+    @keyframes blink-wrong {
+      0% {
+        fill: var(--Red-5);
+        stroke: var(--Red-100);
+      }
+      10% {
+        fill: var(--Red-5);
+        stroke: var(--Red-100);
+      }
+      11% {
+        fill: var(--White-100);
+        stroke: var(--Black-40);
+      }
+      20% {
+        fill: var(--White-100);
+        stroke: var(--Black-40);
+      }
+      21% {
+        fill: var(--Red-5);
+        stroke: var(--Red-100);
+      }
+      30% {
+        fill: var(--Red-5);
+        stroke: var(--Red-100);
+      }
+      31% {
+        fill: var(--White-100);
+        stroke: var(--Black-40);
+      }
+      40% {
+        fill: var(--White-100);
+        stroke: var(--Black-40);
+      }
+      41% {
+        fill: var(--Red-5);
+        stroke: var(--Red-100);
+      }
+      100% {
+        fill: var(--Red-5);
+        stroke: var(--Red-100);
+      }
+    }
   }
 }
-
 
 .menuButton {
   display: none;
