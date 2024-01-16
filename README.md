@@ -36,3 +36,5 @@
 
    ```bash
    npm run dev
+
+5. Відкрийте браузер за посиланням [http://localhost:3000/](http://localhost:3000/)
