@@ -9,6 +9,8 @@
   align-items: center;
   gap: 8px;
   transition: all .5s;
+  overflow-y: scroll;
+  overflow-x: hidden;
 
   @include respond-to(t) {
     visibility: hidden;
@@ -21,6 +23,19 @@
     height: 100%;
     z-index: 10;
     background: var(--Black-5);
+    justify-content: flex-start;
+    &:before {
+      content: '';
+      display: block;
+      min-height: 32px;
+      width: 100%;
+    }
+    &:after {
+      content: '';
+      display: block;
+      min-height: 32px;
+      width: 100%;
+    }
   }
 
   &.active {
@@ -35,6 +50,7 @@
   font-style: normal;
   font-weight: 400;
   height: 40px;
+  min-height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
