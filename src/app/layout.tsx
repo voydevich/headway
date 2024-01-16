@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import './globals.scss';
+import '../styles/globals.scss';
 import { FC, ReactNode } from 'react';
 import GameProvider from '@/providers/GameProvider';
 import { getInitialData } from '@/actions/actions';

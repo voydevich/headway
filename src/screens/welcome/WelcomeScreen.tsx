@@ -1,9 +1,9 @@
-import styles from './screen.module.scss';
+import styles from '../screen.module.scss';
 
 import { FC } from 'react';
 import Button from '@/components/buttons/Button';
 import { useGameContext } from '@/providers/GameProvider';
-import HandSvg from '@/app/screens/Hand.svg';
+import HandSvg from '@/components/svg/Hand.svg';
 
 const WelcomeScreen: FC = () => {
   const { setStatus } = useGameContext();

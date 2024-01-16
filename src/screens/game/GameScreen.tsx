@@ -1,13 +1,15 @@
-import styles from './screen.module.scss';
+import styles from '../screen.module.scss';
 
-import { FC, useCallback, useMemo } from 'react';
+import { FC, useCallback, useMemo, useState } from 'react';
 import { useQuestion } from '@/providers/QuestionsProvider';
 import { useGameContext } from '@/providers/GameProvider';
-import AnswerButton from '@/components/buttons/Answer';
+import AnswerButton from '@/components/buttons/AnswerButton';
 import { getCorrect } from '@/actions/actions';
-import Scores from '@/app/screens/Scores';
+import Scores from '@/screens/game/scores/Scores';
+import MenuButton from '@/components/buttons/MenuButton';
 
 const GameScreen: FC = () => {
+  const [menu, setMenu] = useState(false);
   const questions = useQuestion();
   const {
     step,
@@ -27,9 +29,9 @@ const GameScreen: FC = () => {
         }
       });
   }, [setStatus, setStep, step]);
-
   return (
     <div className={styles.game}>
+      <MenuButton open={menu} onClick={() => setMenu(!menu)}/>
       <div className={styles.questionWrap}>
         <div className={styles.question}>
           <div className={styles.text}>
@@ -44,7 +46,7 @@ const GameScreen: FC = () => {
           </div>
         </div>
       </div>
-      <Scores/>
+      <Scores open={menu}/>
     </div>
   );
 };

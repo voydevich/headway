@@ -1,9 +1,8 @@
-import styles from './screen.module.scss';
-
+import styles from '../screen.module.scss';
 import { FC } from 'react';
 import { useGameContext } from '@/providers/GameProvider';
 import Button from '@/components/buttons/Button';
-import HandSvg from '@/app/screens/Hand.svg';
+import HandSvg from '@/components/svg/Hand.svg';
 
 const FinishScreen: FC = () => {
   const {

@@ -1,9 +1,9 @@
 'use client';
 
 import { FC } from 'react';
-import WelcomeScreen from '@/app/screens/WelcomeScreen';
-import GameScreen from '@/app/screens/GameScreen';
-import FinishScreen from '@/app/screens/FinishScreen';
+import WelcomeScreen from '@/screens/welcome/WelcomeScreen';
+import GameScreen from '@/screens/game/GameScreen';
+import FinishScreen from '@/screens/finish/FinishScreen';
 import { useGameContext } from '@/providers/GameProvider';
 
 const HomePage: FC = () => {

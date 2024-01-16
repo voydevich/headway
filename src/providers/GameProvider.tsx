@@ -4,7 +4,7 @@ import { createContext, FC, ReactNode, useContext, useState } from 'react';
 import { useScores } from '@/providers/ScoresProvider';
 import { useQuestion } from '@/providers/QuestionsProvider';
 
-type TGame = {
+export type TGame = {
   status: 'start' | 'game' | 'finish'
   step: number,
   lastStep: number

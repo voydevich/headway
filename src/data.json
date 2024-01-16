@@ -58,6 +58,10 @@
           "isCorrect": false
         },
         {
+          "text": "false",
+          "isCorrect": false
+        },
+        {
           "text": "true",
           "isCorrect": true
         }
@@ -81,20 +85,16 @@
         {
           "text": "true",
           "isCorrect": true
+        },
+        {
+          "text": "true",
+          "isCorrect": true
         }
       ]
     },
     {
       "text": "5 questions",
       "answers": [
-        {
-          "text": "false",
-          "isCorrect": false
-        },
-        {
-          "text": "false",
-          "isCorrect": false
-        },
         {
           "text": "false",
           "isCorrect": false
@@ -108,10 +108,6 @@
     {
       "text": "6 questions",
       "answers": [
-        {
-          "text": "false",
-          "isCorrect": false
-        },
         {
           "text": "false",
           "isCorrect": false
